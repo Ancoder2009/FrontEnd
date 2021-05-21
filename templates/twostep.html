@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scratchblox Login</title>
+</head>
+
+<body>
+    <form method="POST">
+        <div style="color: red;">{{message}}</div>
+        <input type="hidden" name="method" value="2step">
+        <input type="hidden" name="username" value="{{username}}">
+        <input type="hidden" name="password" value="{{password}}">
+        <label for="code">Code: </label>
+        <input type="name" name="code" id="code">
+        </br>
+        <button type="submit">Login!</button>
+    </form>
+</body>
+</html>
